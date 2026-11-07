@@ -1,0 +1,48 @@
+{
+  "test": {
+    "n": 624,
+    "accuracy": 0.8621794871794872,
+    "precision_pneumonia": 0.8275862068965517,
+    "recall_pneumonia": 0.9846153846153847,
+    "specificity": 0.6581196581196581,
+    "roc_auc": 0.9629520052596976,
+    "confusion_matrix": [
+      [
+        154,
+        80
+      ],
+      [
+        6,
+        384
+      ]
+    ]
+  },
+  "data": {
+    "train": {
+      "NORMAL": 1129,
+      "PNEUMONIA": 3291
+    },
+    "val": {
+      "NORMAL": 220,
+      "PNEUMONIA": 592
+    },
+    "test": {
+      "NORMAL": 234,
+      "PNEUMONIA": 390
+    }
+  },
+  "config": {
+    "data_dir": null,
+    "img_size": 224,
+    "batch_size": 32,
+    "epochs_head": 8,
+    "epochs_ft": 10,
+    "unfreeze": 30,
+    "val_fraction": 0.15,
+    "no_pretrained": false,
+    "class_weights": {
+      "0": 1.95748449955713,
+      "1": 0.6715284108173807
+    }
+  }
+}

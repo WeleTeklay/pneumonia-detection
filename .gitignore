@@ -1,2 +1,6 @@
 chest_xray/
-*.h5
+__pycache__/
+*.log
+.ipynb_checkpoints/
+# NOTE: the trained model (pneumonia_detector_model.keras) is intentionally NOT ignored
+# so the deployed app can load it.

@@ -1,0 +1,4 @@
+-r requirements.txt
+scikit-learn
+kagglehub
+seaborn   # only used by the original notebook's plots
