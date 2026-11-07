@@ -1,6 +1,6 @@
 # Runtime dependencies of the Streamlit app (used by Streamlit Community Cloud).
 # Tip: after training, pin tensorflow-cpu to the exact version you trained with (see README).
-tensorflow-cpu==<version>
+tensorflow-cpu>=2.16
 numpy
 pillow
 matplotlib
