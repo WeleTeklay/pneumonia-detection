@@ -1,8 +1,7 @@
 ## 🩺 Pneumonia Detection from Chest X-rays (EfficientNetB0)
 This project implements a deep learning pipeline for the automated binary classification of Pneumonia from Chest X-ray (CXR) images. It uses EfficientNetB0 via Transfer Learning and includes an interactive Streamlit web application with live Grad-CAM model explainability.
 
-### 🔗 Live demo: https://YOUR-APP-NAME.streamlit.app
-<!-- replace the URL above after deploying (see "Deploy a permanent link" below) -->
+### 🔗 Live demo: https://weleteklay-pneumonia-detection.streamlit.app/
 
 *Research / education project — not a medical device and not a diagnosis.*
 
@@ -78,13 +77,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 This opens the web application in your browser, where you can upload an X-ray image and view the prediction and the Grad-CAM explanation.
-
-### Deploy a permanent link (Streamlit Community Cloud, free)
-1. Push this repo (including the model file) to a public GitHub repository.
-2. Open <https://share.streamlit.io> ▸ **New app** ▸ choose the repo, branch `main`, main file `app.py`.
-3. **Advanced settings** ▸ Python 3.11 or 3.12 ▸ **Deploy**. You get a permanent `https://….streamlit.app` URL — paste it at the top of this README.
-
-Free apps go to sleep after a period without visitors; the first visitor just clicks *“Yes, get this app back up”* (about a minute).
 
 ## Training
 ```bash
